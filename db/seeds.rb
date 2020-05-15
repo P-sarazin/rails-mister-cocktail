@@ -2,10 +2,10 @@ Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
 
-Cocktail.create(name: "Wagon")
-Cocktail.create(name: "BlueSky")
-Cocktail.create(name: "Skribbl")
-Cocktail.create(name: "Coronavirus")
+Cocktail.create(name: "Mojito")
+Cocktail.create(name: "Caipirinha")
+Cocktail.create(name: "Cuba Libre")
+Cocktail.create(name: "Daiquiri")
 
 
 
