@@ -16,17 +16,18 @@ class DosesController < ApplicationController
     end
   end
 
-  def edit
-  end
+  # def edit
+  # end
 
-  def update
-    @dose.update(dose_params)
-    redirect_to dose_path(@dose)
-  end
+  # def update
+  #   @dose.update(dose_params)
+  #   redirect_to dose_path(@dose)
+  # end
 
   def destroy
+    @cocktail = @dose.cocktail
     @dose.destroy
-    redirect_to dose_path
+    redirect_to cocktail_path(@cocktail)
   end
 
   private
